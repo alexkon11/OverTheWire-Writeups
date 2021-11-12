@@ -16,3 +16,6 @@ command used:
   cat readme
   
 Password = boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+To access bandit one use the following command:
+  ssh bandit1@bandit.labs.overthewire.org -p 2220
