@@ -1,0 +1,14 @@
+Level Goal: 
+
+The password for the next level is stored in a file called "spaces in the filename" located in the home directory.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Similar to the previous challenge where cat will not be able to output filenames with spaces. You can use the ./"file spaces"
+Using the "" will make it so the cat understand that it is one string instead of multiple.
+
+Command used:
+  ls
+  cat ./"spaces in the filename"
+
+Password = UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
