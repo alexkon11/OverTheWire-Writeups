@@ -1,0 +1,20 @@
+Level Goal: 
+
+The password for the next level is stored in a file called "-" located in the home directory.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This one was a bit tricky as you can't just "cat [filename]".
+
+Tried searching on "man cat" but didn't find anything useful so I decided to google it.
+
+During my search I found that when cat sees the string - as a filename, it treats it as a synonym for stdin. To get around this, you need to alter the way cat sees this string.
+You can do so by inputing the entire working directory OR you can use the ./ 
+
+For example:
+  cat /home/bandit1/-
+  cat ./-
+  
+Both of these commands will work and provide you with the next level password.
+
+Password = CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
